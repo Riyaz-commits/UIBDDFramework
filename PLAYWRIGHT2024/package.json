@@ -1,0 +1,17 @@
+{
+  "name": "playwright2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc --incremental -p tests/tsconfig.json",
+    "test": "playwright test -c tests-out"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0-alpha-2024-08-19",
+    "@types/node": "^22.2.0"
+  }
+}
